@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Quicksand', sans-serif;
+}
+
+html,
+body,
+.container {
+  height: 100%;
+}
+
+body{
+    background-color: #f8f9fa;
+    color:#F4F4F2;
+}
+
+.formulario {
+  width: 70%;
+}
+
+.titulo {
+  width: 70%;
+  background-color: #BBBFCA;
+  margin-top: 30px;
+}
+
+.optionMenu {
+  text-decoration: none;
+}
+
+@media (max-width: 768px) {
+  .formulario {
+    width: 100%;
+  }
+
+  .titulo {
+    display: none;
+    margin-top: 0px;
+  }
+}

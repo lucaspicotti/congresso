@@ -1,0 +1,425 @@
+CRITICAL - 2022-05-24 09:05:05 --> Undefined property: App\Controllers\Configurar::$usersModel
+#0 C:\wamp64\www\congresso\app\Controllers\Configurar.php(80): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\wamp64\\www\\c...', 80)
+#1 C:\wamp64\www\congresso\system\CodeIgniter.php(832): App\Controllers\Configurar->update()
+#2 C:\wamp64\www\congresso\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Configurar))
+#3 C:\wamp64\www\congresso\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\congresso\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-05-24 09:05:39 --> There is no data to update.
+#0 C:\wamp64\www\congresso\system\BaseModel.php(846): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('update')
+#1 C:\wamp64\www\congresso\system\Model.php(651): CodeIgniter\BaseModel->update(Array, Array)
+#2 C:\wamp64\www\congresso\app\Controllers\Configurar.php(100): CodeIgniter\Model->update(Array, Array)
+#3 C:\wamp64\www\congresso\system\CodeIgniter.php(832): App\Controllers\Configurar->update()
+#4 C:\wamp64\www\congresso\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Configurar))
+#5 C:\wamp64\www\congresso\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\wamp64\www\congresso\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+ERROR - 2022-05-24 09:14:24 --> Unknown column 'congresso_user.id' in 'where clause'
+CRITICAL - 2022-05-24 09:14:24 --> Unknown column 'congresso_user.id' in 'where clause'
+#0 C:\wamp64\www\congresso\system\Database\MySQLi\Connection.php(292): mysqli->query('UPDATE `congres...', 0)
+#1 C:\wamp64\www\congresso\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `congres...')
+#2 C:\wamp64\www\congresso\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `congres...')
+#3 C:\wamp64\www\congresso\system\Database\BaseBuilder.php(1913): CodeIgniter\Database\BaseConnection->query('UPDATE `congres...', Array, false)
+#4 C:\wamp64\www\congresso\system\Model.php(298): CodeIgniter\Database\BaseBuilder->update()
+#5 C:\wamp64\www\congresso\system\BaseModel.php(865): CodeIgniter\Model->doUpdate(Array, Array)
+#6 C:\wamp64\www\congresso\system\Model.php(651): CodeIgniter\BaseModel->update(Array, Array)
+#7 C:\wamp64\www\congresso\app\Controllers\Configurar.php(100): CodeIgniter\Model->update('7', Array)
+#8 C:\wamp64\www\congresso\system\CodeIgniter.php(832): App\Controllers\Configurar->update()
+#9 C:\wamp64\www\congresso\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Configurar))
+#10 C:\wamp64\www\congresso\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\wamp64\www\congresso\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2022-05-24 09:16:33 --> There is no data to update.
+#0 C:\wamp64\www\congresso\system\BaseModel.php(1574): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('update')
+#1 C:\wamp64\www\congresso\system\BaseModel.php(832): CodeIgniter\BaseModel->transformDataToArray(NULL, 'update')
+#2 C:\wamp64\www\congresso\system\Model.php(651): CodeIgniter\BaseModel->update(Array, NULL)
+#3 C:\wamp64\www\congresso\app\Controllers\Configurar.php(100): CodeIgniter\Model->update(Array)
+#4 C:\wamp64\www\congresso\system\CodeIgniter.php(832): App\Controllers\Configurar->update()
+#5 C:\wamp64\www\congresso\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Configurar))
+#6 C:\wamp64\www\congresso\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\wamp64\www\congresso\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-05-24 09:19:35 --> Cannot use object of type mysqli as array
+#0 C:\wamp64\www\congresso\system\CodeIgniter.php(832): App\Controllers\Configurar->update()
+#1 C:\wamp64\www\congresso\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Configurar))
+#2 C:\wamp64\www\congresso\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\wamp64\www\congresso\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-05-24 09:19:59 --> Cannot use object of type mysqli as array
+#0 C:\wamp64\www\congresso\system\CodeIgniter.php(832): App\Controllers\Configurar->update()
+#1 C:\wamp64\www\congresso\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Configurar))
+#2 C:\wamp64\www\congresso\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\wamp64\www\congresso\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-05-24 09:23:56 --> There is no data to update.
+#0 C:\wamp64\www\congresso\system\BaseModel.php(1574): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('update')
+#1 C:\wamp64\www\congresso\system\BaseModel.php(832): CodeIgniter\BaseModel->transformDataToArray(NULL, 'update')
+#2 C:\wamp64\www\congresso\system\Model.php(651): CodeIgniter\BaseModel->update(Array, NULL)
+#3 C:\wamp64\www\congresso\app\Controllers\Configurar.php(100): CodeIgniter\Model->update(Array)
+#4 C:\wamp64\www\congresso\system\CodeIgniter.php(832): App\Controllers\Configurar->update()
+#5 C:\wamp64\www\congresso\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Configurar))
+#6 C:\wamp64\www\congresso\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\wamp64\www\congresso\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+ERROR - 2022-05-24 09:25:13 --> Unknown column 'congresso_user.id' in 'where clause'
+CRITICAL - 2022-05-24 09:25:13 --> Unknown column 'congresso_user.id' in 'where clause'
+#0 C:\wamp64\www\congresso\system\Database\MySQLi\Connection.php(292): mysqli->query('UPDATE `congres...', 0)
+#1 C:\wamp64\www\congresso\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `congres...')
+#2 C:\wamp64\www\congresso\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `congres...')
+#3 C:\wamp64\www\congresso\system\Database\BaseBuilder.php(1913): CodeIgniter\Database\BaseConnection->query('UPDATE `congres...', Array, false)
+#4 C:\wamp64\www\congresso\system\Model.php(298): CodeIgniter\Database\BaseBuilder->update()
+#5 C:\wamp64\www\congresso\system\BaseModel.php(865): CodeIgniter\Model->doUpdate(Array, Array)
+#6 C:\wamp64\www\congresso\system\Model.php(651): CodeIgniter\BaseModel->update(Array, Array)
+#7 C:\wamp64\www\congresso\app\Controllers\Configurar.php(100): CodeIgniter\Model->update(Array, Array)
+#8 C:\wamp64\www\congresso\system\CodeIgniter.php(832): App\Controllers\Configurar->update()
+#9 C:\wamp64\www\congresso\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Configurar))
+#10 C:\wamp64\www\congresso\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\wamp64\www\congresso\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#12 {main}
+ERROR - 2022-05-24 09:25:45 --> Unknown column 'congresso_user.id' in 'where clause'
+CRITICAL - 2022-05-24 09:25:45 --> Unknown column 'congresso_user.id' in 'where clause'
+#0 C:\wamp64\www\congresso\system\Database\MySQLi\Connection.php(292): mysqli->query('UPDATE `congres...', 0)
+#1 C:\wamp64\www\congresso\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `congres...')
+#2 C:\wamp64\www\congresso\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `congres...')
+#3 C:\wamp64\www\congresso\system\Database\BaseBuilder.php(1913): CodeIgniter\Database\BaseConnection->query('UPDATE `congres...', Array, false)
+#4 C:\wamp64\www\congresso\system\Model.php(298): CodeIgniter\Database\BaseBuilder->update()
+#5 C:\wamp64\www\congresso\system\BaseModel.php(865): CodeIgniter\Model->doUpdate(Array, Array)
+#6 C:\wamp64\www\congresso\system\Model.php(651): CodeIgniter\BaseModel->update(Array, Array)
+#7 C:\wamp64\www\congresso\app\Controllers\Configurar.php(100): CodeIgniter\Model->update(Array, Array)
+#8 C:\wamp64\www\congresso\system\CodeIgniter.php(832): App\Controllers\Configurar->update()
+#9 C:\wamp64\www\congresso\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Configurar))
+#10 C:\wamp64\www\congresso\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\wamp64\www\congresso\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2022-05-24 09:29:10 --> There is no data to update.
+#0 C:\wamp64\www\congresso\system\BaseModel.php(1574): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('update')
+#1 C:\wamp64\www\congresso\system\BaseModel.php(832): CodeIgniter\BaseModel->transformDataToArray(NULL, 'update')
+#2 C:\wamp64\www\congresso\system\Model.php(651): CodeIgniter\BaseModel->update(Array, NULL)
+#3 C:\wamp64\www\congresso\app\Controllers\Configurar.php(100): CodeIgniter\Model->update(Array)
+#4 C:\wamp64\www\congresso\system\CodeIgniter.php(832): App\Controllers\Configurar->update()
+#5 C:\wamp64\www\congresso\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Configurar))
+#6 C:\wamp64\www\congresso\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\wamp64\www\congresso\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-05-24 09:29:41 --> There is no data to update.
+#0 C:\wamp64\www\congresso\system\BaseModel.php(1574): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('update')
+#1 C:\wamp64\www\congresso\system\BaseModel.php(832): CodeIgniter\BaseModel->transformDataToArray(NULL, 'update')
+#2 C:\wamp64\www\congresso\system\Model.php(651): CodeIgniter\BaseModel->update(Array, NULL)
+#3 C:\wamp64\www\congresso\app\Controllers\Configurar.php(100): CodeIgniter\Model->update(Array)
+#4 C:\wamp64\www\congresso\system\CodeIgniter.php(832): App\Controllers\Configurar->update()
+#5 C:\wamp64\www\congresso\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Configurar))
+#6 C:\wamp64\www\congresso\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\wamp64\www\congresso\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-05-24 09:36:27 --> There is no data to update.
+#0 C:\wamp64\www\congresso\system\BaseModel.php(1574): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('update')
+#1 C:\wamp64\www\congresso\system\BaseModel.php(832): CodeIgniter\BaseModel->transformDataToArray(NULL, 'update')
+#2 C:\wamp64\www\congresso\system\Model.php(651): CodeIgniter\BaseModel->update(Array, NULL)
+#3 C:\wamp64\www\congresso\app\Controllers\Configurar.php(100): CodeIgniter\Model->update(Array)
+#4 C:\wamp64\www\congresso\system\CodeIgniter.php(832): App\Controllers\Configurar->update()
+#5 C:\wamp64\www\congresso\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Configurar))
+#6 C:\wamp64\www\congresso\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\wamp64\www\congresso\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-05-24 09:39:11 --> There is no data to update.
+#0 C:\wamp64\www\congresso\system\BaseModel.php(1574): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('update')
+#1 C:\wamp64\www\congresso\system\BaseModel.php(832): CodeIgniter\BaseModel->transformDataToArray(NULL, 'update')
+#2 C:\wamp64\www\congresso\system\Model.php(651): CodeIgniter\BaseModel->update(Array, NULL)
+#3 C:\wamp64\www\congresso\app\Controllers\Configurar.php(100): CodeIgniter\Model->update(Array)
+#4 C:\wamp64\www\congresso\system\CodeIgniter.php(832): App\Controllers\Configurar->update()
+#5 C:\wamp64\www\congresso\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Configurar))
+#6 C:\wamp64\www\congresso\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\wamp64\www\congresso\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+ERROR - 2022-05-24 09:41:14 --> Unknown column 'congresso_user.id' in 'where clause'
+CRITICAL - 2022-05-24 09:41:14 --> Unknown column 'congresso_user.id' in 'where clause'
+#0 C:\wamp64\www\congresso\system\Database\MySQLi\Connection.php(292): mysqli->query('UPDATE `congres...', 0)
+#1 C:\wamp64\www\congresso\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `congres...')
+#2 C:\wamp64\www\congresso\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `congres...')
+#3 C:\wamp64\www\congresso\system\Database\BaseBuilder.php(1913): CodeIgniter\Database\BaseConnection->query('UPDATE `congres...', Array, false)
+#4 C:\wamp64\www\congresso\system\Model.php(298): CodeIgniter\Database\BaseBuilder->update()
+#5 C:\wamp64\www\congresso\system\BaseModel.php(865): CodeIgniter\Model->doUpdate(Array, Array)
+#6 C:\wamp64\www\congresso\system\Model.php(651): CodeIgniter\BaseModel->update(Array, Array)
+#7 C:\wamp64\www\congresso\app\Controllers\Configurar.php(100): CodeIgniter\Model->update(Array, Array)
+#8 C:\wamp64\www\congresso\system\CodeIgniter.php(832): App\Controllers\Configurar->update()
+#9 C:\wamp64\www\congresso\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Configurar))
+#10 C:\wamp64\www\congresso\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\wamp64\www\congresso\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#12 {main}
+ERROR - 2022-05-24 09:42:52 --> Unknown column 'congresso_user.id' in 'where clause'
+CRITICAL - 2022-05-24 09:42:52 --> Unknown column 'congresso_user.id' in 'where clause'
+#0 C:\wamp64\www\congresso\system\Database\MySQLi\Connection.php(292): mysqli->query('UPDATE `congres...', 0)
+#1 C:\wamp64\www\congresso\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `congres...')
+#2 C:\wamp64\www\congresso\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `congres...')
+#3 C:\wamp64\www\congresso\system\Database\BaseBuilder.php(1913): CodeIgniter\Database\BaseConnection->query('UPDATE `congres...', Array, false)
+#4 C:\wamp64\www\congresso\system\Model.php(298): CodeIgniter\Database\BaseBuilder->update()
+#5 C:\wamp64\www\congresso\system\BaseModel.php(865): CodeIgniter\Model->doUpdate(Array, Array)
+#6 C:\wamp64\www\congresso\system\Model.php(651): CodeIgniter\BaseModel->update(Array, Array)
+#7 C:\wamp64\www\congresso\app\Controllers\Configurar.php(100): CodeIgniter\Model->update('7', Array)
+#8 C:\wamp64\www\congresso\system\CodeIgniter.php(832): App\Controllers\Configurar->update()
+#9 C:\wamp64\www\congresso\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Configurar))
+#10 C:\wamp64\www\congresso\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\wamp64\www\congresso\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#12 {main}
+ERROR - 2022-05-24 09:54:00 --> Unknown column 'congresso_user.id' in 'where clause'
+CRITICAL - 2022-05-24 09:54:00 --> Unknown column 'congresso_user.id' in 'where clause'
+#0 C:\wamp64\www\congresso\system\Database\MySQLi\Connection.php(292): mysqli->query('UPDATE `congres...', 0)
+#1 C:\wamp64\www\congresso\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `congres...')
+#2 C:\wamp64\www\congresso\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `congres...')
+#3 C:\wamp64\www\congresso\system\Database\BaseBuilder.php(1913): CodeIgniter\Database\BaseConnection->query('UPDATE `congres...', Array, false)
+#4 C:\wamp64\www\congresso\system\Model.php(298): CodeIgniter\Database\BaseBuilder->update()
+#5 C:\wamp64\www\congresso\system\BaseModel.php(865): CodeIgniter\Model->doUpdate(Array, Array)
+#6 C:\wamp64\www\congresso\system\Model.php(651): CodeIgniter\BaseModel->update(Array, Array)
+#7 C:\wamp64\www\congresso\app\Controllers\Configurar.php(100): CodeIgniter\Model->update('7', Array)
+#8 C:\wamp64\www\congresso\system\CodeIgniter.php(832): App\Controllers\Configurar->update()
+#9 C:\wamp64\www\congresso\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Configurar))
+#10 C:\wamp64\www\congresso\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\wamp64\www\congresso\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2022-05-24 09:58:58 --> Too few arguments to function App\Controllers\Configurar::update(), 0 passed in C:\wamp64\www\congresso\system\CodeIgniter.php on line 832 and exactly 1 expected
+#0 C:\wamp64\www\congresso\system\CodeIgniter.php(832): App\Controllers\Configurar->update()
+#1 C:\wamp64\www\congresso\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Configurar))
+#2 C:\wamp64\www\congresso\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\wamp64\www\congresso\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+ERROR - 2022-05-24 10:03:25 --> Error connecting to the database: Uma tentativa de conexão falhou porque o componente conectado não respondeu
+corretamente após um período de tempo ou a conexão estabelecida falhou
+porque o host conectado não respondeu
+CRITICAL - 2022-05-24 10:03:25 --> Unable to connect to the database.
+Main connection [MySQLi]: Uma tentativa de conexão falhou porque o componente conectado não respondeu
+corretamente após um período de tempo ou a conexão estabelecida falhou
+porque o host conectado não respondeu
+#0 C:\wamp64\www\congresso\system\Database\BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\wamp64\www\congresso\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 C:\wamp64\www\congresso\system\Model.php(145): CodeIgniter\Database\BaseBuilder->get()
+#3 C:\wamp64\www\congresso\system\BaseModel.php(523): CodeIgniter\Model->doFind(false, NULL)
+#4 C:\wamp64\www\congresso\app\Controllers\Configurar.php(20): CodeIgniter\BaseModel->find()
+#5 C:\wamp64\www\congresso\system\CodeIgniter.php(832): App\Controllers\Configurar->criarUser()
+#6 C:\wamp64\www\congresso\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Configurar))
+#7 C:\wamp64\www\congresso\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\wamp64\www\congresso\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2022-05-24 10:06:24 --> Unknown column 'congresso_user.id' in 'where clause'
+CRITICAL - 2022-05-24 10:06:24 --> Unknown column 'congresso_user.id' in 'where clause'
+#0 C:\wamp64\www\congresso\system\Database\MySQLi\Connection.php(292): mysqli->query('UPDATE `congres...', 0)
+#1 C:\wamp64\www\congresso\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `congres...')
+#2 C:\wamp64\www\congresso\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `congres...')
+#3 C:\wamp64\www\congresso\system\Database\BaseBuilder.php(1913): CodeIgniter\Database\BaseConnection->query('UPDATE `congres...', Array, false)
+#4 C:\wamp64\www\congresso\system\Model.php(298): CodeIgniter\Database\BaseBuilder->update()
+#5 C:\wamp64\www\congresso\system\BaseModel.php(865): CodeIgniter\Model->doUpdate(Array, Array)
+#6 C:\wamp64\www\congresso\system\Model.php(651): CodeIgniter\BaseModel->update(Array, Array)
+#7 C:\wamp64\www\congresso\app\Controllers\Configurar.php(100): CodeIgniter\Model->update('7', Array)
+#8 C:\wamp64\www\congresso\system\CodeIgniter.php(832): App\Controllers\Configurar->update('7')
+#9 C:\wamp64\www\congresso\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Configurar))
+#10 C:\wamp64\www\congresso\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\wamp64\www\congresso\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#12 {main}
+ERROR - 2022-05-24 10:07:01 --> Unknown column 'congresso_user.id' in 'where clause'
+CRITICAL - 2022-05-24 10:07:01 --> Unknown column 'congresso_user.id' in 'where clause'
+#0 C:\wamp64\www\congresso\system\Database\MySQLi\Connection.php(292): mysqli->query('UPDATE `congres...', 0)
+#1 C:\wamp64\www\congresso\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `congres...')
+#2 C:\wamp64\www\congresso\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `congres...')
+#3 C:\wamp64\www\congresso\system\Database\BaseBuilder.php(1913): CodeIgniter\Database\BaseConnection->query('UPDATE `congres...', Array, false)
+#4 C:\wamp64\www\congresso\system\Model.php(298): CodeIgniter\Database\BaseBuilder->update()
+#5 C:\wamp64\www\congresso\system\BaseModel.php(865): CodeIgniter\Model->doUpdate(Array, Array)
+#6 C:\wamp64\www\congresso\system\Model.php(651): CodeIgniter\BaseModel->update(Array, Array)
+#7 C:\wamp64\www\congresso\app\Controllers\Configurar.php(99): CodeIgniter\Model->update('7', Array)
+#8 C:\wamp64\www\congresso\system\CodeIgniter.php(832): App\Controllers\Configurar->update('7')
+#9 C:\wamp64\www\congresso\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Configurar))
+#10 C:\wamp64\www\congresso\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\wamp64\www\congresso\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#12 {main}
+ERROR - 2022-05-24 10:09:28 --> Unknown column 'congresso_user.id' in 'where clause'
+CRITICAL - 2022-05-24 10:09:28 --> Unknown column 'congresso_user.id' in 'where clause'
+#0 C:\wamp64\www\congresso\system\Database\MySQLi\Connection.php(292): mysqli->query('UPDATE `congres...', 0)
+#1 C:\wamp64\www\congresso\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `congres...')
+#2 C:\wamp64\www\congresso\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `congres...')
+#3 C:\wamp64\www\congresso\system\Database\BaseBuilder.php(1913): CodeIgniter\Database\BaseConnection->query('UPDATE `congres...', Array, false)
+#4 C:\wamp64\www\congresso\system\Model.php(298): CodeIgniter\Database\BaseBuilder->update()
+#5 C:\wamp64\www\congresso\system\BaseModel.php(865): CodeIgniter\Model->doUpdate(Array, Array)
+#6 C:\wamp64\www\congresso\system\Model.php(651): CodeIgniter\BaseModel->update(Array, Array)
+#7 C:\wamp64\www\congresso\app\Controllers\Configurar.php(99): CodeIgniter\Model->update('7', Array)
+#8 C:\wamp64\www\congresso\system\CodeIgniter.php(832): App\Controllers\Configurar->update('7')
+#9 C:\wamp64\www\congresso\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Configurar))
+#10 C:\wamp64\www\congresso\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\wamp64\www\congresso\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#12 {main}
+ERROR - 2022-05-24 11:51:22 --> Unknown column 'cod_usu' in 'where clause'
+CRITICAL - 2022-05-24 11:51:22 --> Unknown column 'cod_usu' in 'where clause'
+#0 C:\wamp64\www\congresso\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\wamp64\www\congresso\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\wamp64\www\congresso\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\wamp64\www\congresso\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\wamp64\www\congresso\system\Model.php(145): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\wamp64\www\congresso\system\BaseModel.php(523): CodeIgniter\Model->doFind(false, NULL)
+#6 C:\wamp64\www\congresso\app\Controllers\Configurar.php(63): CodeIgniter\BaseModel->find()
+#7 C:\wamp64\www\congresso\system\CodeIgniter.php(832): App\Controllers\Configurar->editUser()
+#8 C:\wamp64\www\congresso\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Configurar))
+#9 C:\wamp64\www\congresso\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\wamp64\www\congresso\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2022-05-24 11:51:27 --> Undefined array key "cod_usu"
+#0 C:\wamp64\www\congresso\app\Views\config_listUser.php(26): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\wamp64\\www\\c...', 26)
+#1 C:\wamp64\www\congresso\system\View\View.php(210): include('C:\\wamp64\\www\\c...')
+#2 C:\wamp64\www\congresso\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\wamp64\www\congresso\system\Common.php(1089): CodeIgniter\View\View->render('config_listUser', Array, true)
+#4 C:\wamp64\www\congresso\app\Controllers\Configurar.php(56): view('config_listUser', Array)
+#5 C:\wamp64\www\congresso\system\CodeIgniter.php(832): App\Controllers\Configurar->listUser()
+#6 C:\wamp64\www\congresso\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Configurar))
+#7 C:\wamp64\www\congresso\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\wamp64\www\congresso\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-05-24 11:52:39 --> Undefined array key "id"
+#0 C:\wamp64\www\congresso\app\Views\config_listUser.php(26): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\wamp64\\www\\c...', 26)
+#1 C:\wamp64\www\congresso\system\View\View.php(210): include('C:\\wamp64\\www\\c...')
+#2 C:\wamp64\www\congresso\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\wamp64\www\congresso\system\Common.php(1089): CodeIgniter\View\View->render('config_listUser', Array, true)
+#4 C:\wamp64\www\congresso\app\Controllers\Configurar.php(56): view('config_listUser', Array)
+#5 C:\wamp64\www\congresso\system\CodeIgniter.php(832): App\Controllers\Configurar->listUser()
+#6 C:\wamp64\www\congresso\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Configurar))
+#7 C:\wamp64\www\congresso\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\wamp64\www\congresso\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-05-24 11:53:20 --> Undefined array key "id"
+#0 C:\wamp64\www\congresso\app\Views\config_listUser.php(26): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\wamp64\\www\\c...', 26)
+#1 C:\wamp64\www\congresso\system\View\View.php(210): include('C:\\wamp64\\www\\c...')
+#2 C:\wamp64\www\congresso\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\wamp64\www\congresso\system\Common.php(1089): CodeIgniter\View\View->render('config_listUser', Array, true)
+#4 C:\wamp64\www\congresso\app\Controllers\Configurar.php(56): view('config_listUser', Array)
+#5 C:\wamp64\www\congresso\system\CodeIgniter.php(832): App\Controllers\Configurar->listUser()
+#6 C:\wamp64\www\congresso\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Configurar))
+#7 C:\wamp64\www\congresso\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\wamp64\www\congresso\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-05-24 13:49:56 --> Undefined array key "cod_eve"
+#0 C:\wamp64\www\congresso\app\Views\config_criarUser.php(94): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\wamp64\\www\\c...', 94)
+#1 C:\wamp64\www\congresso\system\View\View.php(210): include('C:\\wamp64\\www\\c...')
+#2 C:\wamp64\www\congresso\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\wamp64\www\congresso\system\Common.php(1089): CodeIgniter\View\View->render('config_criarUse...', Array, true)
+#4 C:\wamp64\www\congresso\app\Controllers\Configurar.php(24): view('config_criarUse...', Array)
+#5 C:\wamp64\www\congresso\system\CodeIgniter.php(832): App\Controllers\Configurar->criarUser()
+#6 C:\wamp64\www\congresso\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Configurar))
+#7 C:\wamp64\www\congresso\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\wamp64\www\congresso\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-05-24 13:51:12 --> Undefined array key "id"
+#0 C:\wamp64\www\congresso\app\Views\config_criarUser.php(94): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\wamp64\\www\\c...', 94)
+#1 C:\wamp64\www\congresso\system\View\View.php(210): include('C:\\wamp64\\www\\c...')
+#2 C:\wamp64\www\congresso\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\wamp64\www\congresso\system\Common.php(1089): CodeIgniter\View\View->render('config_criarUse...', Array, true)
+#4 C:\wamp64\www\congresso\app\Controllers\Configurar.php(24): view('config_criarUse...', Array)
+#5 C:\wamp64\www\congresso\system\CodeIgniter.php(832): App\Controllers\Configurar->criarUser()
+#6 C:\wamp64\www\congresso\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Configurar))
+#7 C:\wamp64\www\congresso\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\wamp64\www\congresso\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-05-24 13:51:45 --> Undefined array key "id"
+#0 C:\wamp64\www\congresso\app\Views\config_criarUser.php(94): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\wamp64\\www\\c...', 94)
+#1 C:\wamp64\www\congresso\system\View\View.php(210): include('C:\\wamp64\\www\\c...')
+#2 C:\wamp64\www\congresso\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\wamp64\www\congresso\system\Common.php(1089): CodeIgniter\View\View->render('config_criarUse...', Array, true)
+#4 C:\wamp64\www\congresso\app\Controllers\Configurar.php(24): view('config_criarUse...', Array)
+#5 C:\wamp64\www\congresso\system\CodeIgniter.php(832): App\Controllers\Configurar->criarUser()
+#6 C:\wamp64\www\congresso\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Configurar))
+#7 C:\wamp64\www\congresso\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\wamp64\www\congresso\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-05-24 13:53:52 --> Undefined array key "evento"
+#0 C:\wamp64\www\congresso\app\Views\config_criarUser.php(94): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\wamp64\\www\\c...', 94)
+#1 C:\wamp64\www\congresso\system\View\View.php(210): include('C:\\wamp64\\www\\c...')
+#2 C:\wamp64\www\congresso\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\wamp64\www\congresso\system\Common.php(1089): CodeIgniter\View\View->render('config_criarUse...', Array, true)
+#4 C:\wamp64\www\congresso\app\Controllers\Configurar.php(24): view('config_criarUse...', Array)
+#5 C:\wamp64\www\congresso\system\CodeIgniter.php(832): App\Controllers\Configurar->criarUser()
+#6 C:\wamp64\www\congresso\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Configurar))
+#7 C:\wamp64\www\congresso\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\wamp64\www\congresso\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-05-24 13:54:36 --> Undefined array key "evento"
+#0 C:\wamp64\www\congresso\app\Views\config_criarUser.php(94): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\wamp64\\www\\c...', 94)
+#1 C:\wamp64\www\congresso\system\View\View.php(210): include('C:\\wamp64\\www\\c...')
+#2 C:\wamp64\www\congresso\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\wamp64\www\congresso\system\Common.php(1089): CodeIgniter\View\View->render('config_criarUse...', Array, true)
+#4 C:\wamp64\www\congresso\app\Controllers\Configurar.php(24): view('config_criarUse...', Array)
+#5 C:\wamp64\www\congresso\system\CodeIgniter.php(832): App\Controllers\Configurar->criarUser()
+#6 C:\wamp64\www\congresso\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Configurar))
+#7 C:\wamp64\www\congresso\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\wamp64\www\congresso\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-05-24 13:56:24 --> Undefined array key "evento"
+#0 C:\wamp64\www\congresso\app\Views\config_editUser.php(102): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\wamp64\\www\\c...', 102)
+#1 C:\wamp64\www\congresso\system\View\View.php(210): include('C:\\wamp64\\www\\c...')
+#2 C:\wamp64\www\congresso\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\wamp64\www\congresso\system\Common.php(1089): CodeIgniter\View\View->render('config_editUser', Array, true)
+#4 C:\wamp64\www\congresso\app\Controllers\Configurar.php(68): view('config_editUser', Array)
+#5 C:\wamp64\www\congresso\system\CodeIgniter.php(832): App\Controllers\Configurar->editUser()
+#6 C:\wamp64\www\congresso\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Configurar))
+#7 C:\wamp64\www\congresso\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\wamp64\www\congresso\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-05-24 13:57:41 --> Undefined variable $dado
+#0 C:\wamp64\www\congresso\app\Views\config_editUser.php(102): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\wamp64\\www\\c...', 102)
+#1 C:\wamp64\www\congresso\system\View\View.php(210): include('C:\\wamp64\\www\\c...')
+#2 C:\wamp64\www\congresso\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\wamp64\www\congresso\system\Common.php(1089): CodeIgniter\View\View->render('config_editUser', Array, true)
+#4 C:\wamp64\www\congresso\app\Controllers\Configurar.php(68): view('config_editUser', Array)
+#5 C:\wamp64\www\congresso\system\CodeIgniter.php(832): App\Controllers\Configurar->editUser()
+#6 C:\wamp64\www\congresso\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Configurar))
+#7 C:\wamp64\www\congresso\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\wamp64\www\congresso\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-05-24 13:58:11 --> Undefined array key "evento"
+#0 C:\wamp64\www\congresso\app\Views\config_editUser.php(102): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\wamp64\\www\\c...', 102)
+#1 C:\wamp64\www\congresso\system\View\View.php(210): include('C:\\wamp64\\www\\c...')
+#2 C:\wamp64\www\congresso\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\wamp64\www\congresso\system\Common.php(1089): CodeIgniter\View\View->render('config_editUser', Array, true)
+#4 C:\wamp64\www\congresso\app\Controllers\Configurar.php(68): view('config_editUser', Array)
+#5 C:\wamp64\www\congresso\system\CodeIgniter.php(832): App\Controllers\Configurar->editUser()
+#6 C:\wamp64\www\congresso\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Configurar))
+#7 C:\wamp64\www\congresso\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\wamp64\www\congresso\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-05-24 13:59:05 --> Undefined variable $dado
+#0 C:\wamp64\www\congresso\app\Views\config_editUser.php(102): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\wamp64\\www\\c...', 102)
+#1 C:\wamp64\www\congresso\system\View\View.php(210): include('C:\\wamp64\\www\\c...')
+#2 C:\wamp64\www\congresso\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\wamp64\www\congresso\system\Common.php(1089): CodeIgniter\View\View->render('config_editUser', Array, true)
+#4 C:\wamp64\www\congresso\app\Controllers\Configurar.php(68): view('config_editUser', Array)
+#5 C:\wamp64\www\congresso\system\CodeIgniter.php(832): App\Controllers\Configurar->editUser()
+#6 C:\wamp64\www\congresso\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Configurar))
+#7 C:\wamp64\www\congresso\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\wamp64\www\congresso\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-05-24 14:00:01 --> Undefined variable $dado
+#0 C:\wamp64\www\congresso\app\Views\config_editUser.php(102): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\wamp64\\www\\c...', 102)
+#1 C:\wamp64\www\congresso\system\View\View.php(210): include('C:\\wamp64\\www\\c...')
+#2 C:\wamp64\www\congresso\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\wamp64\www\congresso\system\Common.php(1089): CodeIgniter\View\View->render('config_editUser', Array, true)
+#4 C:\wamp64\www\congresso\app\Controllers\Configurar.php(68): view('config_editUser', Array)
+#5 C:\wamp64\www\congresso\system\CodeIgniter.php(832): App\Controllers\Configurar->editUser()
+#6 C:\wamp64\www\congresso\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Configurar))
+#7 C:\wamp64\www\congresso\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\wamp64\www\congresso\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-05-24 14:46:19 --> Undefined array key "username"
+#0 C:\wamp64\www\congresso\app\Views\config_editUser.php(31): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\wamp64\\www\\c...', 31)
+#1 C:\wamp64\www\congresso\system\View\View.php(210): include('C:\\wamp64\\www\\c...')
+#2 C:\wamp64\www\congresso\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\wamp64\www\congresso\system\Common.php(1089): CodeIgniter\View\View->render('config_editUser', Array, true)
+#4 C:\wamp64\www\congresso\app\Controllers\Configurar.php(152): view('config_editUser', Array)
+#5 C:\wamp64\www\congresso\system\CodeIgniter.php(832): App\Controllers\Configurar->editEvento()
+#6 C:\wamp64\www\congresso\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Configurar))
+#7 C:\wamp64\www\congresso\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\wamp64\www\congresso\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-05-24 14:47:06 --> Undefined array key "username"
+#0 C:\wamp64\www\congresso\app\Views\config_editUser.php(31): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\wamp64\\www\\c...', 31)
+#1 C:\wamp64\www\congresso\system\View\View.php(210): include('C:\\wamp64\\www\\c...')
+#2 C:\wamp64\www\congresso\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\wamp64\www\congresso\system\Common.php(1089): CodeIgniter\View\View->render('config_editUser', Array, true)
+#4 C:\wamp64\www\congresso\app\Controllers\Configurar.php(152): view('config_editUser', Array)
+#5 C:\wamp64\www\congresso\system\CodeIgniter.php(832): App\Controllers\Configurar->editEvento()
+#6 C:\wamp64\www\congresso\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Configurar))
+#7 C:\wamp64\www\congresso\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\wamp64\www\congresso\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}

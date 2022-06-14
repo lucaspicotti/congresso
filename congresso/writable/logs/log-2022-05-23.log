@@ -1,0 +1,193 @@
+CRITICAL - 2022-05-23 09:07:55 --> Class "App\Controllers\EmendasModel" not found
+#0 C:\wamp64\www\congresso\system\CodeIgniter.php(809): App\Controllers\Home->__construct()
+#1 C:\wamp64\www\congresso\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->createController()
+#2 C:\wamp64\www\congresso\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\wamp64\www\congresso\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-05-23 09:08:18 --> Array to string conversion
+#0 C:\wamp64\www\congresso\app\Views\home.php(6): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string...', 'C:\\wamp64\\www\\c...', 6)
+#1 C:\wamp64\www\congresso\system\View\View.php(210): include('C:\\wamp64\\www\\c...')
+#2 C:\wamp64\www\congresso\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\wamp64\www\congresso\system\Common.php(1089): CodeIgniter\View\View->render('home', Array, true)
+#4 C:\wamp64\www\congresso\app\Controllers\Home.php(18): view('home', Array)
+#5 C:\wamp64\www\congresso\system\CodeIgniter.php(832): App\Controllers\Home->index()
+#6 C:\wamp64\www\congresso\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\wamp64\www\congresso\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\wamp64\www\congresso\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-05-23 09:22:29 --> Undefined array key "nrparagrafo"
+#0 C:\wamp64\www\congresso\app\Views\home.php(1): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\wamp64\\www\\c...', 1)
+#1 C:\wamp64\www\congresso\system\View\View.php(210): include('C:\\wamp64\\www\\c...')
+#2 C:\wamp64\www\congresso\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\wamp64\www\congresso\system\Common.php(1089): CodeIgniter\View\View->render('home', Array, true)
+#4 C:\wamp64\www\congresso\app\Controllers\Home.php(18): view('home', Array)
+#5 C:\wamp64\www\congresso\system\CodeIgniter.php(832): App\Controllers\Home->index()
+#6 C:\wamp64\www\congresso\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\wamp64\www\congresso\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\wamp64\www\congresso\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-05-23 09:28:03 --> Array to string conversion
+#0 C:\wamp64\www\congresso\app\Views\home.php(1): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string...', 'C:\\wamp64\\www\\c...', 1)
+#1 C:\wamp64\www\congresso\system\View\View.php(210): include('C:\\wamp64\\www\\c...')
+#2 C:\wamp64\www\congresso\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\wamp64\www\congresso\system\Common.php(1089): CodeIgniter\View\View->render('home', Array, true)
+#4 C:\wamp64\www\congresso\app\Controllers\Home.php(18): view('home', Array)
+#5 C:\wamp64\www\congresso\system\CodeIgniter.php(832): App\Controllers\Home->index()
+#6 C:\wamp64\www\congresso\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\wamp64\www\congresso\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\wamp64\www\congresso\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-05-23 09:28:14 --> Array to string conversion
+#0 C:\wamp64\www\congresso\app\Views\home.php(1): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string...', 'C:\\wamp64\\www\\c...', 1)
+#1 C:\wamp64\www\congresso\system\View\View.php(210): include('C:\\wamp64\\www\\c...')
+#2 C:\wamp64\www\congresso\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\wamp64\www\congresso\system\Common.php(1089): CodeIgniter\View\View->render('home', Array, true)
+#4 C:\wamp64\www\congresso\app\Controllers\Home.php(18): view('home', Array)
+#5 C:\wamp64\www\congresso\system\CodeIgniter.php(832): App\Controllers\Home->index()
+#6 C:\wamp64\www\congresso\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\wamp64\www\congresso\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\wamp64\www\congresso\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-05-23 09:29:47 --> Undefined array key "nrparagrafo"
+#0 C:\wamp64\www\congresso\app\Views\home.php(1): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\wamp64\\www\\c...', 1)
+#1 C:\wamp64\www\congresso\system\View\View.php(210): include('C:\\wamp64\\www\\c...')
+#2 C:\wamp64\www\congresso\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\wamp64\www\congresso\system\Common.php(1089): CodeIgniter\View\View->render('home', Array, true)
+#4 C:\wamp64\www\congresso\app\Controllers\Home.php(18): view('home', Array)
+#5 C:\wamp64\www\congresso\system\CodeIgniter.php(832): App\Controllers\Home->index()
+#6 C:\wamp64\www\congresso\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\wamp64\www\congresso\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\wamp64\www\congresso\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-05-23 09:30:16 --> Undefined array key "cod_eme"
+#0 C:\wamp64\www\congresso\app\Views\home.php(1): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\wamp64\\www\\c...', 1)
+#1 C:\wamp64\www\congresso\system\View\View.php(210): include('C:\\wamp64\\www\\c...')
+#2 C:\wamp64\www\congresso\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\wamp64\www\congresso\system\Common.php(1089): CodeIgniter\View\View->render('home', Array, true)
+#4 C:\wamp64\www\congresso\app\Controllers\Home.php(18): view('home', Array)
+#5 C:\wamp64\www\congresso\system\CodeIgniter.php(832): App\Controllers\Home->index()
+#6 C:\wamp64\www\congresso\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\wamp64\www\congresso\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\wamp64\www\congresso\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-05-23 09:31:01 --> Undefined array key "cod_eme"
+#0 C:\wamp64\www\congresso\app\Views\home.php(1): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\wamp64\\www\\c...', 1)
+#1 C:\wamp64\www\congresso\system\View\View.php(210): include('C:\\wamp64\\www\\c...')
+#2 C:\wamp64\www\congresso\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\wamp64\www\congresso\system\Common.php(1089): CodeIgniter\View\View->render('home', Array, true)
+#4 C:\wamp64\www\congresso\app\Controllers\Home.php(18): view('home', Array)
+#5 C:\wamp64\www\congresso\system\CodeIgniter.php(832): App\Controllers\Home->index()
+#6 C:\wamp64\www\congresso\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\wamp64\www\congresso\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\wamp64\www\congresso\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-05-23 14:00:56 --> syntax error, unexpected end of file
+#0 C:\wamp64\www\congresso\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 C:\wamp64\www\congresso\system\Common.php(1089): CodeIgniter\View\View->render('config_criarUse...', Array, true)
+#2 C:\wamp64\www\congresso\app\Controllers\Configurar.php(24): view('config_criarUse...', Array)
+#3 C:\wamp64\www\congresso\system\CodeIgniter.php(832): App\Controllers\Configurar->criarUser()
+#4 C:\wamp64\www\congresso\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Configurar))
+#5 C:\wamp64\www\congresso\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\wamp64\www\congresso\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-05-23 14:02:33 --> syntax error, unexpected end of file
+#0 C:\wamp64\www\congresso\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 C:\wamp64\www\congresso\system\Common.php(1089): CodeIgniter\View\View->render('config_criarUse...', Array, true)
+#2 C:\wamp64\www\congresso\app\Controllers\Configurar.php(24): view('config_criarUse...', Array)
+#3 C:\wamp64\www\congresso\system\CodeIgniter.php(832): App\Controllers\Configurar->criarUser()
+#4 C:\wamp64\www\congresso\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Configurar))
+#5 C:\wamp64\www\congresso\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\wamp64\www\congresso\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-05-23 14:03:24 --> syntax error, unexpected end of file
+#0 C:\wamp64\www\congresso\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 C:\wamp64\www\congresso\system\Common.php(1089): CodeIgniter\View\View->render('config_criarUse...', Array, true)
+#2 C:\wamp64\www\congresso\app\Controllers\Configurar.php(24): view('config_criarUse...', Array)
+#3 C:\wamp64\www\congresso\system\CodeIgniter.php(832): App\Controllers\Configurar->criarUser()
+#4 C:\wamp64\www\congresso\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Configurar))
+#5 C:\wamp64\www\congresso\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\wamp64\www\congresso\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-05-23 14:05:00 --> Undefined variable $dados
+#0 C:\wamp64\www\congresso\app\Views\config_criarUser.php(1): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\wamp64\\www\\c...', 1)
+#1 C:\wamp64\www\congresso\system\View\View.php(210): include('C:\\wamp64\\www\\c...')
+#2 C:\wamp64\www\congresso\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\wamp64\www\congresso\system\Common.php(1089): CodeIgniter\View\View->render('config_criarUse...', Array, true)
+#4 C:\wamp64\www\congresso\app\Controllers\Configurar.php(24): view('config_criarUse...', Array)
+#5 C:\wamp64\www\congresso\system\CodeIgniter.php(832): App\Controllers\Configurar->criarUser()
+#6 C:\wamp64\www\congresso\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Configurar))
+#7 C:\wamp64\www\congresso\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\wamp64\www\congresso\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-05-23 14:59:23 --> Undefined constant "App\Controllers\dados"
+#0 C:\wamp64\www\congresso\system\CodeIgniter.php(832): App\Controllers\Configurar->save()
+#1 C:\wamp64\www\congresso\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Configurar))
+#2 C:\wamp64\www\congresso\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\wamp64\www\congresso\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-05-23 15:27:55 --> Undefined variable $evento
+#0 C:\wamp64\www\congresso\app\Views\config_editUser.php(50): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\wamp64\\www\\c...', 50)
+#1 C:\wamp64\www\congresso\system\View\View.php(210): include('C:\\wamp64\\www\\c...')
+#2 C:\wamp64\www\congresso\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\wamp64\www\congresso\system\Common.php(1089): CodeIgniter\View\View->render('config_editUser', Array, true)
+#4 C:\wamp64\www\congresso\app\Controllers\Configurar.php(67): view('config_editUser', Array)
+#5 C:\wamp64\www\congresso\system\CodeIgniter.php(832): App\Controllers\Configurar->editUser()
+#6 C:\wamp64\www\congresso\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Configurar))
+#7 C:\wamp64\www\congresso\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\wamp64\www\congresso\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-05-23 15:56:27 --> Undefined array key "username"
+#0 C:\wamp64\www\congresso\app\Views\config_editUser.php(32): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\wamp64\\www\\c...', 32)
+#1 C:\wamp64\www\congresso\system\View\View.php(210): include('C:\\wamp64\\www\\c...')
+#2 C:\wamp64\www\congresso\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\wamp64\www\congresso\system\Common.php(1089): CodeIgniter\View\View->render('config_editUser', Array, true)
+#4 C:\wamp64\www\congresso\app\Controllers\Configurar.php(67): view('config_editUser', Array)
+#5 C:\wamp64\www\congresso\system\CodeIgniter.php(832): App\Controllers\Configurar->editUser()
+#6 C:\wamp64\www\congresso\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Configurar))
+#7 C:\wamp64\www\congresso\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\wamp64\www\congresso\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-05-23 16:00:34 --> foreach() argument must be of type array|object, string given
+#0 C:\wamp64\www\congresso\app\Views\config_editUser.php(27): CodeIgniter\Debug\Exceptions->errorHandler(2, 'foreach() argum...', 'C:\\wamp64\\www\\c...', 27)
+#1 C:\wamp64\www\congresso\system\View\View.php(210): include('C:\\wamp64\\www\\c...')
+#2 C:\wamp64\www\congresso\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\wamp64\www\congresso\system\Common.php(1089): CodeIgniter\View\View->render('config_editUser', Array, true)
+#4 C:\wamp64\www\congresso\app\Controllers\Configurar.php(67): view('config_editUser', Array)
+#5 C:\wamp64\www\congresso\system\CodeIgniter.php(832): App\Controllers\Configurar->editUser()
+#6 C:\wamp64\www\congresso\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Configurar))
+#7 C:\wamp64\www\congresso\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\wamp64\www\congresso\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-05-23 16:01:16 --> foreach() argument must be of type array|object, string given
+#0 C:\wamp64\www\congresso\app\Views\config_editUser.php(27): CodeIgniter\Debug\Exceptions->errorHandler(2, 'foreach() argum...', 'C:\\wamp64\\www\\c...', 27)
+#1 C:\wamp64\www\congresso\system\View\View.php(210): include('C:\\wamp64\\www\\c...')
+#2 C:\wamp64\www\congresso\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\wamp64\www\congresso\system\Common.php(1089): CodeIgniter\View\View->render('config_editUser', Array, true)
+#4 C:\wamp64\www\congresso\app\Controllers\Configurar.php(67): view('config_editUser', Array)
+#5 C:\wamp64\www\congresso\system\CodeIgniter.php(832): App\Controllers\Configurar->editUser()
+#6 C:\wamp64\www\congresso\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Configurar))
+#7 C:\wamp64\www\congresso\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\wamp64\www\congresso\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-05-23 16:29:14 --> Undefined variable $dado
+#0 C:\wamp64\www\congresso\app\Views\config_editUser.php(80): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\wamp64\\www\\c...', 80)
+#1 C:\wamp64\www\congresso\system\View\View.php(210): include('C:\\wamp64\\www\\c...')
+#2 C:\wamp64\www\congresso\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\wamp64\www\congresso\system\Common.php(1089): CodeIgniter\View\View->render('config_editUser', Array, true)
+#4 C:\wamp64\www\congresso\app\Controllers\Configurar.php(67): view('config_editUser', Array)
+#5 C:\wamp64\www\congresso\system\CodeIgniter.php(832): App\Controllers\Configurar->editUser()
+#6 C:\wamp64\www\congresso\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Configurar))
+#7 C:\wamp64\www\congresso\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\wamp64\www\congresso\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-05-23 16:39:08 --> Undefined array key "evento"
+#0 C:\wamp64\www\congresso\app\Views\config_editUser.php(89): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\wamp64\\www\\c...', 89)
+#1 C:\wamp64\www\congresso\system\View\View.php(210): include('C:\\wamp64\\www\\c...')
+#2 C:\wamp64\www\congresso\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\wamp64\www\congresso\system\Common.php(1089): CodeIgniter\View\View->render('config_editUser', Array, true)
+#4 C:\wamp64\www\congresso\app\Controllers\Configurar.php(69): view('config_editUser', Array)
+#5 C:\wamp64\www\congresso\system\CodeIgniter.php(832): App\Controllers\Configurar->editUser()
+#6 C:\wamp64\www\congresso\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Configurar))
+#7 C:\wamp64\www\congresso\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\wamp64\www\congresso\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}

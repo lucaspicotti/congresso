@@ -1,0 +1,285 @@
+CRITICAL - 2022-05-30 09:23:03 --> Undefined variable $model
+#0 C:\wamp64\www\congresso\app\Controllers\Login.php(24): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\wamp64\\www\\c...', 24)
+#1 C:\wamp64\www\congresso\system\CodeIgniter.php(832): App\Controllers\Login->auth()
+#2 C:\wamp64\www\congresso\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#3 C:\wamp64\www\congresso\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\congresso\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-05-30 09:37:16 --> Undefined global variable $_SESSION
+#0 C:\wamp64\www\congresso\app\Controllers\Home.php(16): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined globa...', 'C:\\wamp64\\www\\c...', 16)
+#1 C:\wamp64\www\congresso\system\CodeIgniter.php(832): App\Controllers\Home->index()
+#2 C:\wamp64\www\congresso\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\wamp64\www\congresso\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\congresso\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-05-30 09:37:24 --> Undefined global variable $_SESSION
+#0 C:\wamp64\www\congresso\app\Controllers\Home.php(16): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined globa...', 'C:\\wamp64\\www\\c...', 16)
+#1 C:\wamp64\www\congresso\system\CodeIgniter.php(832): App\Controllers\Home->index()
+#2 C:\wamp64\www\congresso\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\wamp64\www\congresso\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\congresso\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-05-30 09:49:31 --> syntax error, unexpected token "}"
+#0 C:\wamp64\www\congresso\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\wamp64\\www\\c...')
+#1 C:\wamp64\www\congresso\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 C:\wamp64\www\congresso\system\CodeIgniter.php(797): class_exists('\\App\\Controller...', true)
+#4 C:\wamp64\www\congresso\system\CodeIgniter.php(406): CodeIgniter\CodeIgniter->startController()
+#5 C:\wamp64\www\congresso\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\wamp64\www\congresso\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-05-30 09:50:01 --> Array callback must have exactly two elements
+#0 C:\wamp64\www\congresso\system\CodeIgniter.php(832): App\Controllers\Emendas->saveEmendas()
+#1 C:\wamp64\www\congresso\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Emendas))
+#2 C:\wamp64\www\congresso\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\wamp64\www\congresso\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-05-30 12:35:14 --> Undefined variable $title
+#0 C:\wamp64\www\congresso\app\Views\layout\header.php(7): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\wamp64\\www\\c...', 7)
+#1 C:\wamp64\www\congresso\system\View\View.php(210): include('C:\\wamp64\\www\\c...')
+#2 C:\wamp64\www\congresso\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\wamp64\www\congresso\system\Common.php(1089): CodeIgniter\View\View->render('layout/header', Array, true)
+#4 C:\wamp64\www\congresso\app\Controllers\Home.php(17): view('layout/header')
+#5 C:\wamp64\www\congresso\system\CodeIgniter.php(832): App\Controllers\Home->index()
+#6 C:\wamp64\www\congresso\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\wamp64\www\congresso\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\wamp64\www\congresso\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-05-30 12:35:49 --> Undefined variable $title
+#0 C:\wamp64\www\congresso\app\Views\layout\header.php(7): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\wamp64\\www\\c...', 7)
+#1 C:\wamp64\www\congresso\system\View\View.php(210): include('C:\\wamp64\\www\\c...')
+#2 C:\wamp64\www\congresso\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\wamp64\www\congresso\system\Common.php(1089): CodeIgniter\View\View->render('layout/header', Array, true)
+#4 C:\wamp64\www\congresso\app\Controllers\Home.php(17): view('layout/header')
+#5 C:\wamp64\www\congresso\system\CodeIgniter.php(832): App\Controllers\Home->index()
+#6 C:\wamp64\www\congresso\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\wamp64\www\congresso\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\wamp64\www\congresso\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-05-30 12:35:51 --> Undefined variable $title
+#0 C:\wamp64\www\congresso\app\Views\layout\header.php(7): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\wamp64\\www\\c...', 7)
+#1 C:\wamp64\www\congresso\system\View\View.php(210): include('C:\\wamp64\\www\\c...')
+#2 C:\wamp64\www\congresso\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\wamp64\www\congresso\system\Common.php(1089): CodeIgniter\View\View->render('layout/header', Array, true)
+#4 C:\wamp64\www\congresso\app\Controllers\Emendas.php(21): view('layout/header')
+#5 C:\wamp64\www\congresso\system\CodeIgniter.php(832): App\Controllers\Emendas->index()
+#6 C:\wamp64\www\congresso\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Emendas))
+#7 C:\wamp64\www\congresso\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\wamp64\www\congresso\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-05-30 12:36:02 --> Undefined variable $title
+#0 C:\wamp64\www\congresso\app\Views\layout\header.php(7): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\wamp64\\www\\c...', 7)
+#1 C:\wamp64\www\congresso\system\View\View.php(210): include('C:\\wamp64\\www\\c...')
+#2 C:\wamp64\www\congresso\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\wamp64\www\congresso\system\Common.php(1089): CodeIgniter\View\View->render('layout/header', Array, true)
+#4 C:\wamp64\www\congresso\app\Controllers\Home.php(17): view('layout/header')
+#5 C:\wamp64\www\congresso\system\CodeIgniter.php(832): App\Controllers\Home->index()
+#6 C:\wamp64\www\congresso\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\wamp64\www\congresso\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\wamp64\www\congresso\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-05-30 12:36:36 --> foreach() argument must be of type array|object, string given
+#0 C:\wamp64\www\congresso\app\Views\layout\header.php(7): CodeIgniter\Debug\Exceptions->errorHandler(2, 'foreach() argum...', 'C:\\wamp64\\www\\c...', 7)
+#1 C:\wamp64\www\congresso\system\View\View.php(210): include('C:\\wamp64\\www\\c...')
+#2 C:\wamp64\www\congresso\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\wamp64\www\congresso\system\Common.php(1089): CodeIgniter\View\View->render('layout/header', Array, true)
+#4 C:\wamp64\www\congresso\app\Controllers\Home.php(17): view('layout/header', Array)
+#5 C:\wamp64\www\congresso\system\CodeIgniter.php(832): App\Controllers\Home->index()
+#6 C:\wamp64\www\congresso\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\wamp64\www\congresso\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\wamp64\www\congresso\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-05-30 12:37:13 --> Undefined constant "APP"
+#0 C:\wamp64\www\congresso\system\View\View.php(210): include()
+#1 C:\wamp64\www\congresso\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 C:\wamp64\www\congresso\system\Common.php(1089): CodeIgniter\View\View->render('layout/header', Array, true)
+#3 C:\wamp64\www\congresso\app\Controllers\Home.php(17): view('layout/header', Array)
+#4 C:\wamp64\www\congresso\system\CodeIgniter.php(832): App\Controllers\Home->index()
+#5 C:\wamp64\www\congresso\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 C:\wamp64\www\congresso\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\wamp64\www\congresso\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+ERROR - 2022-05-30 13:12:56 --> Unknown column 'nr_paragrafo' in 'where clause'
+CRITICAL - 2022-05-30 13:12:56 --> Unknown column 'nr_paragrafo' in 'where clause'
+#0 C:\wamp64\www\congresso\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT `tipo`, ...', 0)
+#1 C:\wamp64\www\congresso\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `tipo`, ...')
+#2 C:\wamp64\www\congresso\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `tipo`, ...')
+#3 C:\wamp64\www\congresso\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT `tipo`, ...', Array, false)
+#4 C:\wamp64\www\congresso\system\Model.php(145): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\wamp64\www\congresso\system\BaseModel.php(523): CodeIgniter\Model->doFind(false, NULL)
+#6 C:\wamp64\www\congresso\app\Controllers\Ajax.php(18): CodeIgniter\BaseModel->find()
+#7 C:\wamp64\www\congresso\system\CodeIgniter.php(832): App\Controllers\Ajax->index()
+#8 C:\wamp64\www\congresso\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ajax))
+#9 C:\wamp64\www\congresso\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\wamp64\www\congresso\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#11 {main}
+ERROR - 2022-05-30 13:13:56 --> Unknown column 'nr_paragrafo' in 'where clause'
+CRITICAL - 2022-05-30 13:13:56 --> Unknown column 'nr_paragrafo' in 'where clause'
+#0 C:\wamp64\www\congresso\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT `tipo`, ...', 0)
+#1 C:\wamp64\www\congresso\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `tipo`, ...')
+#2 C:\wamp64\www\congresso\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `tipo`, ...')
+#3 C:\wamp64\www\congresso\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT `tipo`, ...', Array, false)
+#4 C:\wamp64\www\congresso\system\Model.php(145): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\wamp64\www\congresso\system\BaseModel.php(523): CodeIgniter\Model->doFind(false, NULL)
+#6 C:\wamp64\www\congresso\app\Controllers\Ajax.php(18): CodeIgniter\BaseModel->find()
+#7 C:\wamp64\www\congresso\system\CodeIgniter.php(832): App\Controllers\Ajax->index()
+#8 C:\wamp64\www\congresso\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ajax))
+#9 C:\wamp64\www\congresso\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\wamp64\www\congresso\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#11 {main}
+ERROR - 2022-05-30 13:14:55 --> Unknown column 'nr_paragrafo' in 'where clause'
+CRITICAL - 2022-05-30 13:14:55 --> Unknown column 'nr_paragrafo' in 'where clause'
+#0 C:\wamp64\www\congresso\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT `tipo`, ...', 0)
+#1 C:\wamp64\www\congresso\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `tipo`, ...')
+#2 C:\wamp64\www\congresso\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `tipo`, ...')
+#3 C:\wamp64\www\congresso\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT `tipo`, ...', Array, false)
+#4 C:\wamp64\www\congresso\system\Model.php(145): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\wamp64\www\congresso\system\BaseModel.php(523): CodeIgniter\Model->doFind(false, NULL)
+#6 C:\wamp64\www\congresso\app\Controllers\Ajax.php(18): CodeIgniter\BaseModel->find()
+#7 C:\wamp64\www\congresso\system\CodeIgniter.php(832): App\Controllers\Ajax->index()
+#8 C:\wamp64\www\congresso\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ajax))
+#9 C:\wamp64\www\congresso\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\wamp64\www\congresso\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#11 {main}
+ERROR - 2022-05-30 13:15:03 --> Unknown column 'nr_paragrafo' in 'where clause'
+CRITICAL - 2022-05-30 13:15:03 --> Unknown column 'nr_paragrafo' in 'where clause'
+#0 C:\wamp64\www\congresso\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT `tipo`, ...', 0)
+#1 C:\wamp64\www\congresso\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `tipo`, ...')
+#2 C:\wamp64\www\congresso\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `tipo`, ...')
+#3 C:\wamp64\www\congresso\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT `tipo`, ...', Array, false)
+#4 C:\wamp64\www\congresso\system\Model.php(145): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\wamp64\www\congresso\system\BaseModel.php(523): CodeIgniter\Model->doFind(false, NULL)
+#6 C:\wamp64\www\congresso\app\Controllers\Ajax.php(18): CodeIgniter\BaseModel->find()
+#7 C:\wamp64\www\congresso\system\CodeIgniter.php(832): App\Controllers\Ajax->index()
+#8 C:\wamp64\www\congresso\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ajax))
+#9 C:\wamp64\www\congresso\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\wamp64\www\congresso\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#11 {main}
+ERROR - 2022-05-30 13:15:16 --> Unknown column 'nr_paragrafo' in 'where clause'
+CRITICAL - 2022-05-30 13:15:16 --> Unknown column 'nr_paragrafo' in 'where clause'
+#0 C:\wamp64\www\congresso\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT `tipo`, ...', 0)
+#1 C:\wamp64\www\congresso\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `tipo`, ...')
+#2 C:\wamp64\www\congresso\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `tipo`, ...')
+#3 C:\wamp64\www\congresso\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT `tipo`, ...', Array, false)
+#4 C:\wamp64\www\congresso\system\Model.php(145): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\wamp64\www\congresso\system\BaseModel.php(523): CodeIgniter\Model->doFind(false, NULL)
+#6 C:\wamp64\www\congresso\app\Controllers\Ajax.php(18): CodeIgniter\BaseModel->find()
+#7 C:\wamp64\www\congresso\system\CodeIgniter.php(832): App\Controllers\Ajax->index()
+#8 C:\wamp64\www\congresso\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ajax))
+#9 C:\wamp64\www\congresso\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\wamp64\www\congresso\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#11 {main}
+ERROR - 2022-05-30 13:15:17 --> Unknown column 'nr_paragrafo' in 'where clause'
+CRITICAL - 2022-05-30 13:15:17 --> Unknown column 'nr_paragrafo' in 'where clause'
+#0 C:\wamp64\www\congresso\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT `tipo`, ...', 0)
+#1 C:\wamp64\www\congresso\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `tipo`, ...')
+#2 C:\wamp64\www\congresso\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `tipo`, ...')
+#3 C:\wamp64\www\congresso\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT `tipo`, ...', Array, false)
+#4 C:\wamp64\www\congresso\system\Model.php(145): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\wamp64\www\congresso\system\BaseModel.php(523): CodeIgniter\Model->doFind(false, NULL)
+#6 C:\wamp64\www\congresso\app\Controllers\Ajax.php(18): CodeIgniter\BaseModel->find()
+#7 C:\wamp64\www\congresso\system\CodeIgniter.php(832): App\Controllers\Ajax->index()
+#8 C:\wamp64\www\congresso\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ajax))
+#9 C:\wamp64\www\congresso\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\wamp64\www\congresso\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#11 {main}
+ERROR - 2022-05-30 13:17:42 --> Unknown column 'nr_paragrafo' in 'where clause'
+CRITICAL - 2022-05-30 13:17:42 --> Unknown column 'nr_paragrafo' in 'where clause'
+#0 C:\wamp64\www\congresso\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT `tipo`, ...', 0)
+#1 C:\wamp64\www\congresso\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `tipo`, ...')
+#2 C:\wamp64\www\congresso\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `tipo`, ...')
+#3 C:\wamp64\www\congresso\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT `tipo`, ...', Array, false)
+#4 C:\wamp64\www\congresso\system\Model.php(145): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\wamp64\www\congresso\system\BaseModel.php(523): CodeIgniter\Model->doFind(false, NULL)
+#6 C:\wamp64\www\congresso\app\Controllers\Ajax.php(18): CodeIgniter\BaseModel->find()
+#7 C:\wamp64\www\congresso\system\CodeIgniter.php(832): App\Controllers\Ajax->index()
+#8 C:\wamp64\www\congresso\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ajax))
+#9 C:\wamp64\www\congresso\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\wamp64\www\congresso\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2022-05-30 13:19:49 --> Call to undefined method App\Models\EmendasModel::selet
+#0 C:\wamp64\www\congresso\app\Controllers\Ajax.php(18): CodeIgniter\Model->__call('selet', Array)
+#1 C:\wamp64\www\congresso\system\CodeIgniter.php(832): App\Controllers\Ajax->index()
+#2 C:\wamp64\www\congresso\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ajax))
+#3 C:\wamp64\www\congresso\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\congresso\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-05-30 13:21:39 --> Call to undefined method App\Models\EmendasModel::selet
+#0 C:\wamp64\www\congresso\app\Controllers\Ajax.php(18): CodeIgniter\Model->__call('selet', Array)
+#1 C:\wamp64\www\congresso\system\CodeIgniter.php(832): App\Controllers\Ajax->index()
+#2 C:\wamp64\www\congresso\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ajax))
+#3 C:\wamp64\www\congresso\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\congresso\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-05-30 13:24:06 --> Call to undefined method App\Models\EmendasModel::selet
+#0 C:\wamp64\www\congresso\app\Controllers\Ajax.php(18): CodeIgniter\Model->__call('selet', Array)
+#1 C:\wamp64\www\congresso\system\CodeIgniter.php(832): App\Controllers\Ajax->index()
+#2 C:\wamp64\www\congresso\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ajax))
+#3 C:\wamp64\www\congresso\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\congresso\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-05-30 13:24:23 --> Call to undefined method App\Models\EmendasModel::selet
+#0 C:\wamp64\www\congresso\app\Controllers\Ajax.php(18): CodeIgniter\Model->__call('selet', Array)
+#1 C:\wamp64\www\congresso\system\CodeIgniter.php(832): App\Controllers\Ajax->index()
+#2 C:\wamp64\www\congresso\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ajax))
+#3 C:\wamp64\www\congresso\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\congresso\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-05-30 13:24:46 --> Call to undefined method App\Models\EmendasModel::selet
+#0 C:\wamp64\www\congresso\app\Controllers\Ajax.php(16): CodeIgniter\Model->__call('selet', Array)
+#1 C:\wamp64\www\congresso\system\CodeIgniter.php(832): App\Controllers\Ajax->index()
+#2 C:\wamp64\www\congresso\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ajax))
+#3 C:\wamp64\www\congresso\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\congresso\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-05-30 13:25:48 --> Call to undefined method App\Models\EmendasModel::selet
+#0 C:\wamp64\www\congresso\app\Controllers\Ajax.php(18): CodeIgniter\Model->__call('selet', Array)
+#1 C:\wamp64\www\congresso\system\CodeIgniter.php(832): App\Controllers\Ajax->index()
+#2 C:\wamp64\www\congresso\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ajax))
+#3 C:\wamp64\www\congresso\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\congresso\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-05-30 13:26:04 --> Call to undefined method App\Models\EmendasModel::selet
+#0 C:\wamp64\www\congresso\app\Controllers\Ajax.php(18): CodeIgniter\Model->__call('selet', Array)
+#1 C:\wamp64\www\congresso\system\CodeIgniter.php(832): App\Controllers\Ajax->index()
+#2 C:\wamp64\www\congresso\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ajax))
+#3 C:\wamp64\www\congresso\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\congresso\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-05-30 13:27:58 --> Call to undefined method App\Models\EmendasModel::selet
+#0 C:\wamp64\www\congresso\app\Controllers\Ajax.php(18): CodeIgniter\Model->__call('selet', Array)
+#1 C:\wamp64\www\congresso\system\CodeIgniter.php(832): App\Controllers\Ajax->index()
+#2 C:\wamp64\www\congresso\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ajax))
+#3 C:\wamp64\www\congresso\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\congresso\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-05-30 13:28:34 --> json_encode(): Passing null to parameter #2 ($flags) of type int is deprecated
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(8192, 'json_encode(): ...', 'C:\\wamp64\\www\\c...', 21)
+#1 C:\wamp64\www\congresso\app\Controllers\Ajax.php(21): json_encode(Array, NULL)
+#2 C:\wamp64\www\congresso\system\CodeIgniter.php(832): App\Controllers\Ajax->index()
+#3 C:\wamp64\www\congresso\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ajax))
+#4 C:\wamp64\www\congresso\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\wamp64\www\congresso\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-05-30 13:29:03 --> CodeIgniter\Database\BaseBuilder::get(): Argument #1 ($limit) must be of type ?int, string given, called in C:\wamp64\www\congresso\system\Model.php on line 728
+#0 C:\wamp64\www\congresso\system\Model.php(728): CodeIgniter\Database\BaseBuilder->get('pala_inicio')
+#1 C:\wamp64\www\congresso\app\Controllers\Ajax.php(18): CodeIgniter\Model->__call('get', Array)
+#2 C:\wamp64\www\congresso\system\CodeIgniter.php(832): App\Controllers\Ajax->index()
+#3 C:\wamp64\www\congresso\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ajax))
+#4 C:\wamp64\www\congresso\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\wamp64\www\congresso\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+ERROR - 2022-05-30 13:29:10 --> Unknown column 'congresso_emendas.id' in 'where clause'
+CRITICAL - 2022-05-30 13:29:10 --> Unknown column 'congresso_emendas.id' in 'where clause'
+#0 C:\wamp64\www\congresso\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\wamp64\www\congresso\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\wamp64\www\congresso\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\wamp64\www\congresso\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\wamp64\www\congresso\system\Model.php(142): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\wamp64\www\congresso\system\BaseModel.php(523): CodeIgniter\Model->doFind(true, 'pala_inicio')
+#6 C:\wamp64\www\congresso\app\Controllers\Ajax.php(18): CodeIgniter\BaseModel->find('pala_inicio')
+#7 C:\wamp64\www\congresso\system\CodeIgniter.php(832): App\Controllers\Ajax->index()
+#8 C:\wamp64\www\congresso\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Ajax))
+#9 C:\wamp64\www\congresso\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\wamp64\www\congresso\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#11 {main}
