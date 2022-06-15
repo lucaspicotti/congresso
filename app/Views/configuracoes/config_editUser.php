@@ -1,6 +1,7 @@
 <div class="d-flex flex-column justify-content-center align-items-center">
-    <div class="p-3 titulo bg-gradient rounded-top shadow-sm">
-        <h2>Editar usuário</h2>
+
+    <div class="ps-3 pt-2 pe-2 titulo bg-gradient rounded-top shadow-sm">
+        <h3>Editar usuário</h3>
     </div>
 
     <div class="formulario row border rounded-bottom p-3 shadow-sm ms-10">
@@ -23,7 +24,7 @@
         
         <?php 
             foreach($dados as $dado) {
-            echo form_open('configurar/update/'.$dado['id'], ['class' => 'row']);
+            echo form_open('configurar/updateUser/'.$dado['id'], ['class' => 'row']);
         ?>
         <input type="hidden" name="id" value="<?php echo $dado['id'];?>">
         <div class="col-md-6 p-2">
@@ -50,7 +51,15 @@
         <div class="col-md-3 p-2">
             <label for="nivel" class="form-label">Nível:</label>
             <select id="nivel" name="nivel" class="form-select">
-                <option value="<?php echo $dado['nivel']?>"><?php echo $dado['nivel']?></option>
+                <option value="<?php echo $dado['nivel']?>">
+                    <?php if($dado['nivel'] == 1) {
+                        echo "ADM";
+                    }elseif($dado['nivel'] == 3){
+                        echo "Usuário";
+                    }else {
+                        echo " ";
+                    } ?>
+                </option>
                 <option value="1">ADM</option>
                 <option value="3">Usuário</option>
             </select>
@@ -84,7 +93,7 @@
         <div class="col-md-4 p-2">
             <label for="nucleo" class="form-label">Núcleo:</label>
             <select id="nucleo" name="nucleo" class="form-select">
-                <option value="<?php echo $dado['nucleo']?>"><?php echo $dado['nucleo']?></option>
+                <option value="<?php echo $dado['nucleo']?>"><?php echo $dado['nomeNucleo']?></option>
                 <?php } ?>
                 <?php foreach($nucleos as $nucleo) { ?>
                 <option value="<?php echo $nucleo['codigo']?>"><?php echo $nucleo['nucleo']?></option>
@@ -95,7 +104,7 @@
             <label for="cod_eve" class="form-laber">Código do evento:</label>
             <select id="cod_eve" name="cod_eve" class="form-select">
                 <?php foreach($dados as $dado) {?>
-                <option value="<?php echo $dado['cod_eve']?>"><?php echo $dado['cod_eve']?></option>
+                <option value="<?php echo $dado['cod_eve']?>"><?php echo $dado['evento']?></option>
                 <?php } ?>
                 <?php foreach($eventos as $evento) {?>
                 <option value="<?php echo $evento['id']?>"><?php echo $evento['evento']?></option>
@@ -104,7 +113,7 @@
         </div>
         <hr class="mt-5">
         <div class="col-12 d-grid gap-2 d-md-flex justify-content-md-end pb-2">
-            <button type="submit" class="btn btn-ligth me-md-2 shadow-sm" style="color:white;background-color:#0aa2d8"><i class="fas fa-check"></i>&nbsp;&nbsp;Salvar</button>
+            <button type="submit" class="btn btn-ligth me-md-2 shadow-sm" style="color:white;background-color:#0aa2d8"><i class="bi bi-check"></i>&nbsp;&nbsp;Salvar</button>
         </div>
         <?php echo form_close(); ?>
     </div>

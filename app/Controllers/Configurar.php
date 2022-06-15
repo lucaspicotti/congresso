@@ -5,6 +5,7 @@ namespace App\Controllers;
 use App\Models\EventosModel;
 use App\Models\NucleoModel;
 use App\Models\UsuarioModel;
+use App\Models\CadernoModel;
 
 class Configurar extends BaseController
 {
@@ -13,6 +14,7 @@ class Configurar extends BaseController
         $this->nucleoModel = new NucleoModel();
         $this->eventosModel =  new EventosModel();
         $this->usuarioModel = new UsuarioModel();    
+        $this->cadernoModel = new CadernoModel();
     }
 
     public function criarUser() 
@@ -43,10 +45,10 @@ class Configurar extends BaseController
 
         if($this->usuarioModel->save($dados)){
             session()->setFlashdata('msg', 'Usuário salvo com sucesso.'); 
-            return redirect()->back();
+            return redirect()->to('criarUser');
         }else {
             session()->setFlashdata('error_msg', 'Não foi possível salvar o usuário.'); 
-            return redirect()->back();
+            return redirect()->to('criarUser');
         }
     }
 
@@ -62,7 +64,7 @@ class Configurar extends BaseController
     {
         $title = "Editar usuário";
         $usuario = $this->request->getPost('id');
-        $dados = $this->usuarioModel->where('id', $usuario)->find();
+        $dados = $this->usuarioModel->where('congresso_user.id', $usuario)->join('nucleo', 'congresso_user.nucleo = nucleo.codigo', 'left')->join('congresso_eventos', 'congresso_user.cod_eve = congresso_eventos.id', 'left')->select('congresso_user.*')->select('nucleo.nucleo as nomeNucleo')->select('congresso_eventos.evento')->find();
 
         echo view('layout/header', ['title' => $title]);
         echo view('configuracoes/config_editUser', [  'dados'   => $dados,
@@ -71,7 +73,7 @@ class Configurar extends BaseController
         echo view('layout/footer');
     }
 
-    public function update($id) 
+    public function updateUser($id) 
     {
         $data_alt = date('Y/m/d H:i:s');
 
@@ -100,10 +102,10 @@ class Configurar extends BaseController
 
         if($this->usuarioModel->update($id, $dados)){
             session()->setFlashdata('msg', 'Usuário editado com sucesso.'); 
-            return redirect()->to('home');
+            return redirect()->to('listUser');
         }else {
             session()->setFlashdata('error_msg', 'Não foi possível editar o usuário.'); 
-            return redirect()->to('home');
+            return redirect()->to('listUser');
         }
     }
 
@@ -131,18 +133,19 @@ class Configurar extends BaseController
 
         if($this->eventosModel->save($dados)){
             session()->setFlashdata('msg', 'Evento salvo com sucesso.'); 
-            return redirect()->back();
+            return redirect()->to('criarEvento');
         }else {
             session()->setFlashdata('error_msg', 'Não foi possível salvar o Evento.'); 
-            return redirect()->back();
+            return redirect()->to('criarEvento');
         }
     }
 
     public function listEvento() 
     {   
+        $dados = $this->eventosModel->find();
         $title = "Lista de eventos";
         echo view('layout/header', ['title' => $title]);
-        echo view('configuracoes/config_listEvento', ['dados' => $this->eventosModel->find()]);
+        echo view('configuracoes/config_listEvento', ['dados' => $dados]);
         echo view('layout/footer');
     }
 
@@ -150,8 +153,7 @@ class Configurar extends BaseController
     {
         $title = "Editar evento";
         $evento = $this->request->getPost('id');
-        $dados = $this->eventosModel->where('id', $evento)->find();
-
+        $dados = $this->eventosModel->where('id', $evento)->join('nucleo', 'congresso_eventos.nucleo = nucleo.codigo', 'left')->select('congresso_eventos.*')->select('nucleo.nucleo as nomeNucleo')->find();
         echo view('layout/header', ['title' => $title]);
         echo view('configuracoes/config_editEvento', [  'dados'   => $dados,
                                         'nucleos' => $this->nucleoModel->find()]);
@@ -173,11 +175,56 @@ class Configurar extends BaseController
 
         if($this->eventosModel->update($id, $dados)){
             session()->setFlashdata('msg', 'Usuário editado com sucesso.'); 
-            return redirect()->to('home');
+            return redirect()->to('listEvento');
         }else {
             session()->setFlashdata('error_msg', 'Não foi possível editar o usuário.'); 
-            return redirect()->to('home');
+            return redirect()->to('listEvento');
         }
+    }
+
+    public function incluirCaderno() 
+    {
+        $title = "Incluir caderno";
+        $eventos = $this->eventosModel->find();
+        
+        echo view('layout/header', ['title' => $title]);
+        echo view('configuracoes/config_incluirCaderno', ['eventos' => $eventos]);
+        echo view('layout/footer');
+    }
+
+    public function saveCaderno()
+    {
+        $dt_inc = date('Y/m/d H:i:s');
+        dd($this->request->getPost());
+    }
+
+    public function pesquisaCaderno() 
+    {
+        $title = "Editar caderno";
+        $eventos = $this->eventosModel->select('id, evento')->find();
+        $nrp = $this->cadernoModel->select('nr_paragrafo')->find();
+        
+        echo view('layout/header', ['title' => $title]);
+        echo view('configuracoes/config_pesquisaCaderno', ['eventos' => $eventos,
+                                                        'paragrafos' => $nrp]);
+        echo view('layout/footer');
+    }
+
+    public function editCaderno() 
+    {
+        $evento = $this->request->getPost('evento');
+        $nr_paragrafo = $this->request->getPost('nr_paragrafo');
+        $title = "Editar caderno";
+        $dados = $this->cadernoModel->where('congresso_caderno.evento', $evento)->where('congresso_caderno.nr_paragrafo', $nr_paragrafo)->join('congresso_eventos', 'congresso_caderno.evento = congresso_eventos.id', 'left')->select('congresso_caderno.*')->select('congresso_eventos.evento as nomeEvento')->find();
+
+        echo view('layout/header', ['title' => $title]);
+        echo view('configuracoes/config_editCaderno', ['dados' => $dados]);
+        echo view('layout/footer');
+    }
+
+    public function updateCaderno() 
+    {
+        dd($this->request->getPost());
     }
 
 }

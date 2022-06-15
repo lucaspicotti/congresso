@@ -1,10 +1,8 @@
 <div class="d-flex flex-column justify-content-center align-items-center">
 
-    <div class="p-3 titulo bg-gradient rounded-top shadow-sm">
-        <h2>Criar usuário</h2>
+    <div class="ps-3 pt-2 pe-2 titulo bg-gradient rounded-top shadow-sm">
+        <h3>Criar usuário</h3>
     </div>
-
-
 
     <div class="formulario row border rounded-bottom p-3 shadow-sm ms-10">
 
@@ -97,7 +95,7 @@
         </div>
         <hr class="mt-5">
         <div class="col-12 d-grid gap-2 d-md-flex justify-content-md-end pb-2">
-            <button type="submit" class="btn btn-ligth me-md-2 shadow-sm" style="color:white;background-color:#0aa2d8"><i class="fas fa-check"></i>&nbsp;&nbsp;Salvar</button>
+            <button type="submit" class="btn btn-ligth me-md-2 shadow-sm" style="color:white;background-color:#0aa2d8"><i class="bi bi-check"></i>&nbsp;&nbsp;Salvar</button>
         </div>
         <?php echo form_close(); ?>
 

@@ -40,8 +40,16 @@ $routes->get('criarUser', 'Configurar::criarUser');
 $routes->get('listUser', 'Configurar::listUser');
 $routes->get('criarEvento', 'Configurar::criarEvento');
 $routes->get('listEvento', 'Configurar::listEvento');
+$routes->get('incluirCaderno', 'Configurar::incluirCaderno');
+$routes->get('pesquisaCaderno', 'Configurar::pesquisaCaderno');
+
 
 $routes->get('emendas', 'Emendas::index');
+$routes->get('selectEmendas', 'Emendas::selectEmendas');
+$routes->get('listEmendas', 'Emendas::listEmendas');
+
+$routes->get('relatorioEmenda', 'Relatorio::relatorioEmenda');
+$routes->get('relatorioCaderno', 'Relatorio::relatorioCaderno');
 
 $routes->get('ajax', 'Ajax::index');
 
